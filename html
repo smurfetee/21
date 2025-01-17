@@ -1,0 +1,114 @@
+<!DOCTYPE html> 
+<html lang=”en”> 
+<head> 
+ <link href= 
+“://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css”  
+ rel=”stylesheet” /> 
+</head> 
+<body> 
+ <!-- NAVBAR --> 
+ <nav class=”navbar navbar-expand  
+ navbar-dark bg-success”> 
+ <div class=”container-fluid”> 
+ <a class=”navbar-brand” href=”./”> 
+ Бабл ти 
+ </a> 
+ <ul class=”navbar-nav me-auto mb-2 mb-lg-0”> 
+ <!-- NAVBAR LINKS --> 
+ <li class=”nav-item”> 
+ <a class=”nav-link active” href=”#”> 
+О нас 
+ </a> 
+ </li> 
+ <li class=”nav-item”>
+ <a class=”nav-link” href=”#”>  Контакты 
+ </a> 
+ </li> 
+ <!--DROPDOWN --> 
+ <li class=”nav-item dropdown”>  <a class=”nav-link dropdown-toggle”   href=”#”  
+ id=”navbarDropdown”  
+ role=”button” 
+ data-bs-toggle=”dropdown”>  Что-то 
+ </a> 
+ <!-- DROPDOWN OPTIONS -->  <ul class=”dropdown-menu”>  <li> 
+ <a class=”dropdown-item” href=”#”> Страница 1 
+ </a> 
+ </li> 
+ <li> 
+ <a class=”dropdown-item” href=”#”>  Страница 2 
+ </a> 
+ </li> 
+ </ul> 
+ </li> 
+ </ul> 
+ <!-- SEARCH BOX --> 
+ <form class=”d-flex”>
+ <input class=”form-control me-2”  
+ type=”search”  
+ placeholder=”Search site” /> 
+ <button class=”btn btn-primary” type=”submit”>  Поиск 
+ </button> 
+ </form> 
+ </div> 
+ </nav> 
+ <!-- ARTICLE --> 
+ <div class=”container mt-5”> 
+ <div class=”row”> 
+ <div class=”col-sm-2”>Чье-то имя</div>  <div class=”col-sm-8”> 
+ <h2>Бубле ти</h2> 
+ <h5>Создано 20 января 2022</h5> 
+ <!-- ARTICLE TEXT --> 
+ <p> 
+ Бабл-чай впервые появился на Тайване в начале 1980-х годов. Считается, что начало положила Линь Сюхуэ́й в кафе «Чуньшуйта́н» города Тайчжун, когда она добавила местный десерт, фэньюа́нь, в холодный чай, на котором до того кафе специализировалось. По другим сведениям старейший известный пенный чай состоял из смеси горячего чёрного чая, маленьких шариков тапиоки, сгущённого молока и сиропа или мёда. Появившиеся впоследствии варианты обычно используют холодный чай, а также зелёный чай или чай с жасмином вместо чёрного.  </p>
+ </div> 
+ </div> 
+ <!-- FORM --> 
+ <form class=”was-validated”> 
+ <!-- Email Address Input --> 
+ <div class=”mb-3”> 
+ <label for=”email” class=”form-label”> 
+ Почта: 
+ </label> 
+ <input type=”email” class=”form-control”   id=”email”  
+ placeholder=”Enter your email id” required />  <div class=”valid-feedback”> 
+ Действующий почтовый id 
+ </div> 
+ <div class=”invalid-feedback”> 
+ Пожалуйста, заполните это поле. 
+ </div> 
+ </div> 
+ <!-- Password Input --> 
+ <div class=”mb-3”> 
+ <label for=”password” class=”form-label”>  Пароль: 
+ </label> 
+ <input type=”password” class=”form-control”   id=”password” placeholder=”Enter your password”  minlength=”8” required /> 
+ <div class=”form-text” id=”password-help-block”> Пароль должен состоять из 8 знаков.  </div>
+ <div class=”valid-feedback”> 
+ Действующий пароль. 
+ </div> 
+ <div class=”invalid-feedback”> 
+ Пожалуйста, заполните это поле. 
+ </div> 
+ </div> 
+ <!-- Checkbox --> 
+ <div class=”form-check mb-3”> 
+ <input class=”form-check-input”  
+ type=”checkbox”  
+ id=”checkbox” required /> 
+ <label class=”form-check-label” for=”checkbox”> 
+ Я согласен с T & C. 
+ </label> 
+ <div class=”valid-feedback”> 
+ Вы согласны с T & C. 
+ </div> 
+ <div class=”invalid-feedback”> 
+ Проверьте правильность заполнения. 
+ </div> 
+ </div> 
+ <button type=”submit” class=”btn btn-primary”> 
+ Продолжить
+ </button> 
+ </form> 
+ </div> 
+ <script src=“https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js”></script> </body> 
+</html>
